@@ -1,0 +1,26 @@
+Source: libtie-ixhash-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ivan Kohler <ivan-debian@420.am>,
+           Xavier Guimard <x.guimard@free.fr>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 8),
+               libmodule-build-perl
+Build-Depends-Indep: libtest-pod-perl,
+                     perl
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtie-ixhash-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libtie-ixhash-perl.git
+Homepage: https://metacpan.org/release/Tie-IxHash
+
+Package: libtie-ixhash-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: Perl module to order associative arrays
+ Tie::IxHash implements Perl hashes that preserve the order in which the
+ hash elements were added. The order is not affected when values
+ corresponding to existing keys in the IxHash are changed. The elements can
+ also be set to any arbitrary supplied order. The familiar perl array
+ operations can also be performed on the IxHash.

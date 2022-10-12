@@ -1,0 +1,63 @@
+libtie-ixhash-perl (1.23-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 18 Dec 2020 22:24:38 +0100
+
+libtie-ixhash-perl (1.23-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ Niko Tyni ]
+  * Declare the package autopkgtestable
+  * Update to Standards-Version 3.9.6
+  * Add explicit build dependency on libmodule-build-perl
+
+ -- Niko Tyni <ntyni@debian.org>  Fri, 05 Jun 2015 21:53:58 +0300
+
+libtie-ixhash-perl (1.23-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * New upstream release.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Mar 2013 20:07:25 +0100
+
+libtie-ixhash-perl (1.22-1) unstable; urgency=low
+
+  * Take over for the Debian Perl Group on maintainer's request
+    (http://bugs.debian.org/677732#10)
+  * Add debian/watch file
+  * Imported Upstream version 1.22
+  * Update source format to 3.0 (quilt)
+  * Update debian/copyright (years and format)
+  * Update debian/rules to use "dh $@"
+  * Update description (Closes: #363283)
+
+ -- Xavier Guimard <x.guimard@free.fr>  Fri, 28 Dec 2012 19:13:12 +0100
+
+libtie-ixhash-perl (1.21-2) unstable; urgency=low
+
+  * debian/copyright pedantry (closes: Bug#153343, Bug#153388)
+  * binary-arch vs. binary-indep (closes: Bug#153366)
+
+ -- Ivan Kohler <ivan-debian@420.am>  Sat,  7 Sep 2002 06:23:11 -0700
+
+libtie-ixhash-perl (1.21-1) unstable; urgency=low
+
+  * Initial Release (closes: Bug#103673)
+
+ -- Ivan Kohler <ivan-debian@420.am>  Tue,  7 Aug 2001 19:00:20 -0700
+
